@@ -10,10 +10,19 @@
         <el-alert title="info alert" type="info" effect="dark" />
         <el-alert title="warning alert" type="warning" effect="dark" />
         <el-alert title="error alert" type="error" effect="dark" />
+        <el-button>button</el-button>
       </el-main>
       <el-footer>Footer</el-footer>
     </el-container>
   </div>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.el-container {
+  min-height: 100vh;
+}
+
+.el-footer {
+  background-color: aquamarine;
+}
+</style>
